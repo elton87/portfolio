@@ -1,0 +1,35 @@
+.section__project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project__title {
+    color: var(--color-texts);
+}
+
+.project__image {
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    transition: all 200ms linear;
+}
+
+.projects__text {
+    margin-bottom: 2.5em;
+}
+
+.projects__text-last {
+    margin-bottom: 1.25em;
+}
+
+.project__info {
+    margin-left: 0.5rem;
+    color: var(--color-nav);
+    transition: all 150ms linear;
+}
+
+.project__info:hover {
+    color: var(--color-buttons);
+    
+}
